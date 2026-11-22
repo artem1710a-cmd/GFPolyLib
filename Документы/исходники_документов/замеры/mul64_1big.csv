@@ -1,0 +1,5 @@
+﻿field;op;algorithm;n;ms
+GF(998244353);mul;school;32768;7364.8043
+GF(998244353);mul;karatsuba;32768;493.4731
+GF(998244353);mul;karatsuba;65536;1492.6517
+GF(998244353);mul;karatsuba;131072;4477.7821

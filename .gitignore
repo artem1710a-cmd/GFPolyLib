@@ -1,0 +1,15 @@
+bin/
+obj/
+*.db
+*.db-wal
+*.db-shm
+Установка/
+GFPolyLib/build/
+Документы/_резервная_копия_до_ГОСТ/
+*.docx.splits.json
+*.docx.map.json
+*.docx.pages.txt
+__pycache__/
+.vs/
+*.user
+_резервная_копия_старый_C++/

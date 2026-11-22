@@ -1,0 +1,13 @@
+﻿field;op;algorithm;n;ms
+GF(2^8);mul;school;64;2.9287
+GF(2^8);mul;karatsuba;64;1.3481
+GF(2^8);mul;school;128;11.6632
+GF(2^8);mul;karatsuba;128;3.9218
+GF(2^8);mul;school;256;23.2755
+GF(2^8);mul;karatsuba;256;6.1156
+GF(2^8);mul;school;512;67.6218
+GF(2^8);mul;karatsuba;512;13.0736
+GF(2^8);mul;school;768;147.3990
+GF(2^8);mul;karatsuba;768;23.4400
+GF(2^8);mul;school;1024;255.7431
+GF(2^8);mul;karatsuba;1024;39.6796

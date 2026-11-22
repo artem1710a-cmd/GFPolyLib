@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>GFPolyApp</AssemblyName>
+    <RootNamespace>GFPolyApp</RootNamespace>
+    <Version>2.0.0</Version>
+    <Product>GFPolyLib Demo</Product>
+    <Description>Демонстрационное приложение библиотеки операций над многочленами в поле Галуа</Description>
+    <Company>ГУАП, кафедра 33</Company>
+    <Copyright>© 2026 Машир А.Ю.</Copyright>
+    <SatelliteResourceLanguages>ru</SatelliteResourceLanguages>
+    <ApplicationHighDpiMode>SystemAware</ApplicationHighDpiMode>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GFPolyLib\GFPolyLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Help\UserGuide.txt" LogicalName="GFPolyApp.UserGuide.txt" />
+    <None Include="..\samples\*.gfp" LinkBase="samples" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="..\readme.txt" Link="readme.txt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>12</LangVersion>
+    <AssemblyName>GFPolyLib</AssemblyName>
+    <RootNamespace>GFPolyLib</RootNamespace>
+    <Version>2.0.0</Version>
+    <Product>GFPolyLib</Product>
+    <Description>Динамическая библиотека операций над многочленами в поле Галуа GF(q), q = p^k</Description>
+    <Company>ГУАП, кафедра 33</Company>
+    <Copyright>© 2026 Машир А.Ю.</Copyright>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="GFPolyLib.Tests" />
+  </ItemGroup>
+
+</Project>
